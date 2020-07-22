@@ -1,0 +1,83 @@
+  body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #61122f;
+  font-family: 'Comic Sans MS', Comic Sans, cursive;
+}
+/* HEADER */
+#header-nav {
+  /*background-color: #f6b319;*/
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+  padding-bottom: 5px;
+}
+.navbar-brand {
+  padding-top: 10px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Comic Sans MS', Comic Sans, cursive;
+  color: #61122f;
+  font-size: 2.3em;
+  /*text-transform: uppercase;*/
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #61122f;
+  text-align: center;
+}
+/*#nav-list a:hover {
+  background: #E7E7E7;
+}*/
+#nav-list a span {
+  font-size: 2.5em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+/*.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}*/
+/* END HEADER */
+
+/** HOME PAGE **/
+
+#main-content {
+    width: 93%;
+    margin-bottom: 30px;
+}
+
+#main-content h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #ff9900;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#main-content h3 {
+    font-size: 1.6em;
+    color: #ffcc00;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+#chicken-tile, #fish-tile, #prawn-tile {
+    width: 100%;
+    padding: 20px;
+    background-color: #660029;
+    margin-bottom: 60px;
+    box-shadow: 0 0 80px #330014;/*#18580b;*/
+}
+
+
+/** END HOME PAGE **/
